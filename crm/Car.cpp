@@ -8,7 +8,7 @@ Car::~Car(void)
 {
 }
 
-Car::Car(char* name, int fee, int seat,int left)
+Car::Car(char *name, int fee, int seat, int left)
 {
 	this->left = left;
 	this->name = name;
@@ -21,7 +21,7 @@ void Car::setLeft(int left)
 	this->left = left;
 }
 
-void Car::setName(char* name)
+void Car::setName(char *name)
 {
 	this->name = name;
 }
@@ -41,7 +41,7 @@ int Car::getLeft()
 	return this->left;
 }
 
-char* Car::getName()
+char *Car::getName()
 {
 	return this->name;
 }

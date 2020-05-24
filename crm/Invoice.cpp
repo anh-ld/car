@@ -9,12 +9,12 @@ Invoice::~Invoice(void)
 }
 
 Invoice::Invoice(int id, int day, int rentDay, int rentMonth, int rentYear, Car car, Customer cus)
-{		
+{
 	this->id = id;
 	this->day = day;
 	this->rentDay = rentDay;
 	this->rentMonth = rentMonth;
-	this ->rentYear = rentYear;
+	this->rentYear = rentYear;
 	this->car = car;
 	this->customer = cus;
 }
@@ -24,7 +24,7 @@ void Invoice::setId(int id)
 	this->id = id;
 }
 
-void  Invoice::setDay(int day)
+void Invoice::setDay(int day)
 {
 	this->day = day;
 }
@@ -41,7 +41,7 @@ void Invoice::setRentMonth(int rentMonth)
 
 void Invoice::setRentYear(int rentYear)
 {
-	this ->rentYear = rentYear;
+	this->rentYear = rentYear;
 }
 
 void Invoice::setCar(Car car)
@@ -51,7 +51,7 @@ void Invoice::setCar(Car car)
 
 void Invoice::setCustomer(Customer customer)
 {
-	this->customer =  customer;
+	this->customer = customer;
 }
 
 int Invoice::getId()

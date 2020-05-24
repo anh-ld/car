@@ -8,39 +8,39 @@ Customer::~Customer(void)
 {
 }
 
-Customer::Customer(char* name, char* phone, char* address)
+Customer::Customer(char *name, char *phone, char *address)
 {
-		 this->name = name;
-		 this->phone = phone;
-		 this->address = address;
+	this->name = name;
+	this->phone = phone;
+	this->address = address;
 }
 
-void Customer::setName(char* name)
+void Customer::setName(char *name)
 {
 	this->name = name;
 }
 
-void Customer::setPhone(char* phone)
+void Customer::setPhone(char *phone)
 {
 	this->phone = phone;
 }
 
-void Customer::setAddress(char* address)
+void Customer::setAddress(char *address)
 {
 	this->address = address;
 }
-	
-char* Customer::getName()
+
+char *Customer::getName()
 {
 	return this->name;
 }
 
-char* Customer::getPhone()
+char *Customer::getPhone()
 {
 	return this->phone;
 }
 
-char* Customer::getAddress()
+char *Customer::getAddress()
 {
 	return this->address;
 }

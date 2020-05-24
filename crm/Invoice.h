@@ -1,10 +1,10 @@
 #pragma once
 #ifndef _INVOICE_
 #define _INVOICE_
-#include<iostream>
-#include"Car.h"
-#include"Customer.h"
-#include<ctime>
+#include <iostream>
+#include "Car.h"
+#include "Customer.h"
+#include <ctime>
 
 class Invoice
 {
@@ -16,11 +16,12 @@ private:
 	int rentYear;
 	Car car;
 	Customer customer;
+
 public:
 	Invoice(void);
 	~Invoice(void);
 	Invoice(int, int, int, int, int, Car, Customer);
-	
+
 	void setId(int);
 	void setDay(int);
 	void setRentDay(int);
